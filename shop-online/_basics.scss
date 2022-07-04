@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+}
+body{
+color: var(--text-color--);
+}
+
+img {
+display: block;
+max-width: 100%;
+}
+.container{
+    padding: 0;
+}
+section{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

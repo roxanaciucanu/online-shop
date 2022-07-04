@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 20px;
+}
+div{
+    font-size: 20px;
+}
+p,li,button, a{
+font-size: 25px ;
+}
+@mixin style {
+    margin: 5px;
+    border: $border;
+    width: $size_w;
+    height: $size_h;
+    position: relative;
+}
+@mixin products {
+    @include style;
+}
+
+@mixin move {
+    display: flex;
+    justify-content: center;
+}
